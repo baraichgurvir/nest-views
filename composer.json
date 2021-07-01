@@ -1,0 +1,21 @@
+{
+    "name": "nest/views",
+    "description": "Views For Nest Routing System.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nest\\Views\\": "Views/"
+        }
+    },
+    "authors": [
+        {
+            "name": "baraichgurvir",
+            "email": "baraichgurvir2007@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nest/routing": "^0.7.0"
+    }
+}
